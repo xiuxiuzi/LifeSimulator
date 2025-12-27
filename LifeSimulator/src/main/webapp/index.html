@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>人生选择模拟器 - 完整版</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/original-style.css">
+  <style>
+    /* 首页特有样式 */
+    .success-box {
+      background: rgba(76, 175, 80, 0.1);
+      border: 1px solid rgba(76, 175, 80, 0.3);
+      border-radius: 10px;
+      padding: 20px;
+      margin: 40px 0;
+      text-align: left;
+    }
+
+    .success-box h3 {
+      color: #4CAF50;
+    }
+
+    .features {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .feature-item {
+      flex: 1;
+      max-width: 200px;
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .feature-item h3 {
+      color: #6e8efb;
+      margin-bottom: 10px;
+    }
+
+    .feature-item p {
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="page active">
+    <header>
+      <div class="header-bg"></div>
+      <div class="logo">
+        <div class="logo-icon">
+          <i class="fas fa-route"></i>
+        </div>
+        <h1>人生选择模拟器</h1>
+      </div>
+      <p class="subtitle">体验不同人生轨迹，每个选择都将开启一段独特的故事。从18岁到50岁，书写属于你的人生篇章。</p>
+    </header>
+
+    <div class="success-box">
+      <h3>✅ 系统准备就绪</h3>
+      <p>数据库连接成功！Java后端运行正常！</p>
+      <p>点击下方按钮开始你的第一个人生模拟旅程。</p>
+      <p><small>测试: <a href="/LifeSimulator/testDB" style="color:#6e8efb;">查看数据库状态</a></small></p>
+    </div>
+
+    <div class="actions">
+      <a href="/LifeSimulator/start" class="btn">
+        <i class="fas fa-play-circle"></i> 开始新的人生模拟
+      </a>
+    </div>
+
+    <div class="features">
+      <div class="feature-item">
+        <h3>🎓 四个阶段</h3>
+        <p>从18岁到50岁，体验完整人生旅程</p>
+      </div>
+      <div class="feature-item">
+        <h3>🔀 多种选择</h3>
+        <p>每个阶段都有独特的选项和故事</p>
+      </div>
+      <div class="feature-item">
+        <h3>📊 人生复盘</h3>
+        <p>查看完整的人生轨迹和最终状态</p>
+      </div>
+    </div>
+
+    <footer style="text-align: center; margin-top: 70px; color: #777; font-size: 0.9rem; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 30px;">
+      <p>© 2023 人生选择模拟器 | Java + Servlet + MySQL 实现</p>
+      <div style="display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 20px;">
+        <i class="fas fa-heart" style="color:#ff6b6b;"></i>
+        <span>本模拟器纯属虚构，旨在展示不同人生选择的可能性</span>
+      </div>
+    </footer>
+  </div>
+</div>
+</body>
+</html>
